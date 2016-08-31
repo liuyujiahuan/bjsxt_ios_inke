@@ -1,0 +1,29 @@
+//
+//  yingke.pch
+//  尚学堂映客
+//
+//  Created by 大欢 on 16/8/16.
+//  Copyright © 2016年 大欢. All rights reserved.
+//
+
+#ifndef yingke_pch
+#define yingke_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "APIConfig.h"
+#import "HttpTool.h"
+
+#import "UIButton+WebCache.h"
+#import "UIImageView+SDWebImage.h"
+#import "SXTMacros.h"
+#import "YYKit.h"
+#import "Masonry.h"
+#import "UMSocial.h"
+#import "UMSocialSinaSSOHandler.h"
+
+
+
+
+#endif /* yingke_pch */

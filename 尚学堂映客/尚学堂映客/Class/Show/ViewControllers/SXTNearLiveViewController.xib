@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SXTNearLiveViewController">
+            <connections>
+                <outlet property="collectionView" destination="aDT-ZF-Fgh" id="RCf-aA-LA5"/>
+                <outlet property="view" destination="RbA-Wf-NB4" id="xaW-KN-iaD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RbA-Wf-NB4">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="aDT-ZF-Fgh">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="5" minimumInteritemSpacing="5" id="KI5-97-fgl">
+                        <size key="itemSize" width="100" height="100"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="TGP-nz-YNg"/>
+                        <outlet property="delegate" destination="-1" id="uU3-lT-Ndb"/>
+                    </connections>
+                </collectionView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="aDT-ZF-Fgh" firstAttribute="leading" secondItem="RbA-Wf-NB4" secondAttribute="leading" id="2cQ-0x-kma"/>
+                <constraint firstItem="aDT-ZF-Fgh" firstAttribute="top" secondItem="RbA-Wf-NB4" secondAttribute="top" id="A1q-UT-y05"/>
+                <constraint firstAttribute="trailing" secondItem="aDT-ZF-Fgh" secondAttribute="trailing" id="tqk-9B-hcq"/>
+                <constraint firstAttribute="bottom" secondItem="aDT-ZF-Fgh" secondAttribute="bottom" id="ykU-c9-u6J"/>
+            </constraints>
+            <point key="canvasLocation" x="-85" y="-347"/>
+        </view>
+    </objects>
+</document>
